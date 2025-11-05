@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Loan Consultancy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      background-color: #fff;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+    }
+    header h1 {
+      color: #c2a13a;
+      margin: 10px 0 5px;
+      font-size: 2em;
+    }
+    header p {
+      font-size: 1.1em;
+      color: #555;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #c2a13a;
+      border-bottom: 2px solid #c2a13a;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #c2a13a;
+      transition: 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #a88b2f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f8f8;
+      color: #555;
+      font-size: 0.9em;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="JS Loan Consultancy Logo">
+    <h1>JS Loan Consultancy</h1>
+    <p><em>Loan is for your future — use it well.</em></p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We provide fast and trusted loan consultancy services in Hyderabad — helping customers find the right finance options for their needs. Whether you’re looking for personal loans, business loans, or vehicle finance, we guide you every step of the way.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Personal and Business Loan Assistance</li>
+      <li>Vehicle and Two-Wheeler Finance Support</li>
+      <li>Home and Property Loan Guidance</li>
+      <li>Document and Eligibility Verification</li>
+      <li>Customer Support and Quick Response</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p><strong>Shaik Naga Sharif</strong><br>
+    Hyderabad, India<br>
+    Phone: <a href="tel:+917416767653">+91 74167 67653</a><br>
+    Email: <a href="mailto:shareefnaga31@gmail.com">shareefnaga31@gmail.com</a></p>
+
+    <div class="buttons">
+      <a href="tel:+917416767653">📞 Call Now</a>
+      <a href="https://wa.me/917416767653" target="_blank">💬 WhatsApp</a>
+      <a href="mailto:shareefnaga31@gmail.com">✉️ Email</a>
+    </div>
+  </section>
+
+  <footer>
+    Made by Shaik Naga Sharif © 2025 | JS Loan Consultancy
+  </footer>
+</body>
+</html>
