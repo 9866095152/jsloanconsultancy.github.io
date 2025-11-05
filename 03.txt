@@ -1,0 +1,72 @@
+=============================================
+CUSTOM DOMAIN SETUP GUIDE
+For: JS LOAN CONSULTANCY Website
+=============================================
+
+You can connect your own domain (like jsloanconsultancy.in)
+to your GitHub Pages site (jsloanconsultancy.github.io) for FREE.
+
+---------------------------------------------
+STEP 1 — BUY YOUR DOMAIN
+---------------------------------------------
+Purchase a domain from any provider:
+  • GoDaddy.com
+  • Namecheap.com
+  • Google Domains
+  • Hostinger.in
+  • BigRock.in
+
+---------------------------------------------
+STEP 2 — OPEN GITHUB SETTINGS
+---------------------------------------------
+1. Go to https://github.com and open your repository:
+   jsloanconsultancy.github.io
+
+2. Click on the **Settings** tab (top of the page).
+
+3. Scroll down to **"Pages"** (left-hand sidebar).
+
+4. Under "Custom domain", type your domain name:
+   👉 Example: jsloanconsultancy.in
+
+5. Click **Save**.
+
+---------------------------------------------
+STEP 3 — SET DNS RECORDS
+---------------------------------------------
+On your domain provider’s dashboard (GoDaddy, etc.), find the **DNS settings** page.
+
+Add the following records:
+
+CNAME Record:
+---------------------------------------------
+Type:   CNAME
+Name:   www
+Value:  jsloanconsultancy.github.io
+TTL:    3600
+
+A Records (optional, for root domain):
+---------------------------------------------
+Type:   A
+Name:   @
+Value:  185.199.108.153
+Value:  185.199.109.153
+Value:  185.199.110.153
+Value:  185.199.111.153
+TTL:    3600
+
+---------------------------------------------
+STEP 4 — WAIT AND VERIFY
+---------------------------------------------
+Wait 1–2 hours for DNS to update.
+Then visit your domain:
+👉 https://jsloanconsultancy.in
+
+GitHub will automatically issue a free SSL certificate (HTTPS).
+
+---------------------------------------------
+STEP 5 — DONE!
+---------------------------------------------
+Your JS Loan Consultancy website is now LIVE with your own domain.
+
+If you ever update your website files in GitHub, it will automatically refresh at your domain within minutes.
